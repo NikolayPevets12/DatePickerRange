@@ -1,0 +1,39 @@
+.day-block{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    animation: day 1s ;
+    
+}
+
+.active-cell{
+    cursor: pointer;
+    background-color: bisque;
+
+    
+}
+
+.active-cell:hover{
+    background-color: grey;
+
+}
+
+.passive-cell{
+    color: grey;
+    background-color: beige;
+
+}
+
+@keyframes day{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.range{
+    font-size:40px;
+}

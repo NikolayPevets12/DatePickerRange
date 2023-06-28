@@ -1,0 +1,52 @@
+*{
+    user-select: none;
+}
+
+.overlay{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    /* opacity: 0.9; */
+    z-index: -1;
+}
+
+.date-picker-container{
+    display: grid;
+    grid-template-columns: (7, 1fr);
+    grid-template-rows: (5, 1fr);
+    margin: 20px;
+    /* z-index: -1; */
+
+}
+
+.date-picker-days{
+    display: grid;
+    grid-template-columns: (7, 1fr);
+
+}
+.date-picker-days:first-child{
+    color: red;
+}
+.date-picker-week-days{
+    display: flex;
+    flex-direction: row;
+}
+
+.cell{
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.week-day{
+    background-color: burlywood;
+}
