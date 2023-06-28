@@ -8,3 +8,7 @@ export const Wrapper = (Component) => {
 };
 
 
+// export const DatePickerRangeWrapped = (props) => {
+//     console.log(props);
+//     return <Component {...props}/>
+// }
