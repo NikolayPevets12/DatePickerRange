@@ -11,8 +11,8 @@ export function DatePickerInner({
   pickerInput,
   pickerInputEnd,
 }) {
-  const [visibleRangeStart, setVisibleRangeStart] = useState(new Date())
-  const [visibleRangeEnd, setVisibleRangeEnd] = useState(new Date())
+  const [visibleRangeStart, setVisibleRangeStart] = useState(new Date());
+  const [visibleRangeEnd, setVisibleRangeEnd] = useState(new Date());
 
   const months = [
     "January",
@@ -71,7 +71,6 @@ export function DatePickerInner({
         setDate={setVisibleRangeStart}
         months={months}
         setPickerInput={setPickerInput}
-         
       >
         <DaysBlockStart
           visibleRangeStart={visibleRangeStart}
