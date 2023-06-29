@@ -101,6 +101,7 @@ export function DatePickerInner({
           handleShowDatePicker={handleShowDatePicker}
         />
       </DatePickerContainer>
+      <button onClick={handleShowDatePicker}>OK</button>
     </div>
   );
 }

@@ -12,7 +12,7 @@ export const DaysBlockEnd = ({
     let newDate = new Date(`${year}-${month + 1}-${day + 1}`);
     if (newDate >= pickerDateCompare) {
       setPickerInput(newDate);
-      handleShowDatePicker();
+      // handleShowDatePicker();
     }
   };
 
